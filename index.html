@@ -288,7 +288,7 @@
             <div class="post">
               <img class="thumbnail" src="images/ddna.png" />
               <div class="post-preview">
-                <a href="www.digitaldna.org.uk">
+                <a target="_blank" href="https://www.digitaldna.org.uk">
                   <h6 class="post-title">www.digitaldna.org.uk/</h6></a
                 >
                 <p class="post-intro">
@@ -304,7 +304,7 @@
             <div class="post">
               <img class="thumbnail" src="images/bitshub1.png" />
               <div class="post-preview">
-                <a href="/www.bitshub.africa">
+                <a target="_blank" href="https://www.bitshub.africa">
                   <h6 class="post-title">www.bitshub.africa</h6></a
                 >
                 <p class="post-intro">
@@ -319,7 +319,7 @@
             <div class="post">
               <img class="thumbnail" src="images/spurt2.png" />
               <div class="post-preview">
-                <a href="www.spurt.group">
+                <a target="_blank" href="https://www.spurt.group">
                   <h6 class="post-title">www.spurt.group</h6></a
                 >
                 <p class="post-intro">
@@ -335,7 +335,7 @@
             <div class="post">
               <img class="thumbnail" src="images/gez1.png" />
               <div class="post-preview">
-                <a href="www.gez.com.ng"
+                <a target="_blank" href="https://www.gez.com.ng"
                   ><h6 class="post-title">www.gez.com.ng</h6></a
                 >
                 <p class="post-intro">
@@ -362,7 +362,20 @@
           action="https://formsubmit.io/send/ifedayoagboola19@gmail.com"
           method="POST"
         >
-          <a name="contact"></a>
+          <!-- <a name="contact"></a> -->
+
+          <!-- Honeypot -->
+          <input type="text" name="_formsubmit_id" style="display: none" />
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://ifedayoagboola.github.io/my-portfolio/success.html"
+          />
 
           <label>Name</label>
           <input class="input-field" type="text" name="name" />
@@ -375,23 +388,6 @@
 
           <label>Message</label>
           <textarea class="input-field" name="message"></textarea>
-
-          <!-- Honeypot -->
-          <input
-            type="text"
-            name="_formsubmit_id"
-            style="display: none"
-            value="false"
-          />
-
-          <!-- Disable Captcha -->
-          <input type="hidden" name="_captcha" value="false" />
-
-          <input
-            type="hidden"
-            name="_next"
-            value="https://ifedayoagboola.github.io/my-portfolio/success.html"
-          />
 
           <input id="submit-btn" type="submit" value="Send" />
         </form>
