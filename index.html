@@ -286,9 +286,25 @@
         <div class="post-wrapper">
           <div>
             <div class="post">
+              <img class="thumbnail" src="images/ddna.png" />
+              <div class="post-preview">
+                <a href="www.digitaldna.org.uk">
+                  <h6 class="post-title">www.digitaldna.org.uk/</h6></a
+                >
+                <p class="post-intro">
+                  Pioneered the creation of a cutting-edge check-in software
+                  solution for the prestigious Digital DNA conference, catering
+                  for thousands of attendees
+                </p>
+                <a href="ddna.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="post">
               <img class="thumbnail" src="images/bitshub1.png" />
               <div class="post-preview">
-                <a href="www.bitshub.africa">
+                <a href="/www.bitshub.africa">
                   <h6 class="post-title">www.bitshub.africa</h6></a
                 >
                 <p class="post-intro">
@@ -330,21 +346,6 @@
               </div>
             </div>
           </div>
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/ddna.png" />
-              <div class="post-preview">
-                <a href="www.digitaldna.org.uk">
-                  <h6 class="post-title">www.digitaldna.org.uk/</h6></a
-                >
-                <p class="post-intro">
-                  Designed built & mantained a the lab managment system for FOI
-                  Laboratories
-                </p>
-                <a href="ddna.html">Read More</a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -358,9 +359,21 @@
 
         <form
           id="contact-form"
-          action="https://formsubmit.io/ifedayoagboola19@gmail.com"
+          action="https://formsubmit.io/send/ifedayoagboola19@gmail.com"
           method="POST"
         >
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none" />
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://ifedayoagboola.github.io/my-portfolio/success.html"
+          />
+
           <a name="contact"></a>
 
           <label>Name</label>
@@ -378,21 +391,29 @@
           <input id="submit-btn" type="submit" value="Send" />
         </form>
         <hr />
-        <h3 align="center">Find me on LinedIn & Github</h3>
+        <div align="center" style="padding: 20px 0">
+          <h5>Phones and socials</h5>
+          <div
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <span>|</span>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ifedayo-agboola-05a093147/"
+              >LinkedIn</a
+            >
+            <span>|</span>
 
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/ifedayo-agboola-05a093147/"
-          >LinkedIn</a
-        >
-        <br />
-        <a target="_blank" href="https://github.com/ifedayoagboola">Github</a>
-        <br />
-        <a href="mailto:ifedayoagboola19@gmail.com"
-          >ifedayoagboola19@gmail.com</a
-        >
-        <br />
-        <a href="#">+2348103431851, +447762474016</a>
+            <a target="_blank" href="https://github.com/ifedayoagboola"
+              >Github</a
+            >
+            <span>|</span>
+            <a href="mailto:ifedayoagboola19@gmail.com"
+              >ifedayoagboola19@gmail.com</a
+            >
+            <span>|</span> <a href="#">+2348103431851, +447762474016</a>
+          </div>
+        </div>
       </div>
     </section>
 
